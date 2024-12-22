@@ -257,7 +257,7 @@ body {
   height: auto;
   margin: 42px auto 0;
   position: relative;
-  width: 1170px;
+  width: 100%;
 }
 
 .header {
@@ -271,7 +271,7 @@ body {
   padding: 0 0 335px;
   position: relative;
   width: 1140px;
-  background: url("images/header_s_fon_c_a.png") no-repeat center bottom;
+  background: url("images/header_s_fon_a.png")no-repeat center bottom;
 }
 
 .logo {
@@ -283,7 +283,7 @@ body {
   float: right;
   width: 209px;
   color: #fefefe;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: normal;
   line-height: 1.2;
   text-align: right;
@@ -367,25 +367,19 @@ body {
 }
 
 .tiitle_level1 {
-  margin: 0 351px;
-  text-align: right;
-}
-
-.tiitle_level1>* {
-  font-size: 24px;
-  text-align: right;
+  margin: 0 285px;
+  text-align: center;
+	font-size: 22px;
+	line-height: 1.2;
 }
 
 .text_block_1 {
   margin: 25px 0 0;
-  text-align: justify;
-}
-
-.text_block_1>* {
-  font-size: 13.97786px;
+	font-size: 17px;
   line-height: 1.2;
   text-align: justify;
   text-indent: 32.1643px;
+	width: 1140px;
 }
 
 .row-2 {
@@ -411,33 +405,19 @@ body {
 
 .tiitle_level2 {
   text-align: right;
-}
-
-.tiitle_level2>* {
-  font-size: 18.66667px;
+	font-size: 18.66667px;
   font-style: italic;
-  text-align: right;
+	line-height: 1.2;
 }
 
 .text_block_2 {
   margin: 21px 0 0;
   text-align: justify;
-}
-
-.text_block_2>* {
-  line-height: 1.2;
-  text-align: justify;
+	line-height: 1.2;
   text-indent: 31.90825px;
-}
+	font-size: 17px;
+	width: 1140px;
 
-.map {
-  height: 303px;
-  margin: 25px auto 0;
-  width: 841px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  background: #ffffff;
 }
 
 ._3 {
@@ -446,24 +426,20 @@ body {
   width: 1138px;
 }
 
-.tiitle_level2-2 {
-  margin: 0 0 0 434px;
-}
-
-.tiitle_level2-2>* {
-  font-size: 18.66667px;
+.tiitle_level3 {
+  text-align: right;
+	 font-size: 18.66667px;
   font-style: italic;
+	line-height: 1.2;
 }
 
 .text_block_3 {
   margin: 22px 0 0;
   text-align: justify;
-}
-
-.text_block_3>* {
-  line-height: 1.2;
-  text-align: justify;
+	line-height: 1.2;
   text-indent: 31.90825px;
+	font-size: 17px;
+	width: 1140px;
 }
 
 .row-5 {
@@ -473,57 +449,11 @@ body {
   width: 619px;
 }
 
-.col-8 {
-  float: left;
-  position: relative;
-  width: 225px;
-}
-
-.tiitle_level2-3 {
-  font-size: 18.66667px;
-  font-style: italic;
-}
-
-.field_1 {
-  display: block;
-  margin: 24px 0 0;
-  position: relative;
-}
-
-.col-9 {
-  float: right;
-  position: relative;
-  width: 225px;
-}
-
-.tiitle_level2-4 {
-  font-size: 18.66667px;
-  font-style: italic;
-}
-
-.field_2 {
-  display: block;
-  margin: 23px 0 0;
-  position: relative;
-}
-
 .row-4 {
   margin: 24px auto 0;
   position: relative;
   right: 18px;
   width: 618px;
-}
-
-.col-6 {
-  float: left;
-  position: relative;
-  width: 225px;
-}
-
-.tiitle_level2-h7 {
-  font-size: 18.66667px;
-  font-style: italic;
-  font-weight: bold;
 }
 
 .field_3 {
@@ -532,99 +462,54 @@ body {
   position: relative;
 }
 
-.col-7 {
-  float: right;
-  position: relative;
-  width: 225px;
-}
-
-.tiitle_level2-h8 {
-  font-size: 18.66667px;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.field_4 {
-  display: block;
-  margin: 24px 0 0;
-  position: relative;
-}
-
-.tiitle_level2-h9 {
-  margin: 23px 0 0 242px;
-}
-
-.tiitle_level2-h9>* {
-  font-size: 18.66667px;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.field_5 {
-  display: block;
-  margin: 23px auto 0;
-  position: relative;
-  right: 18px;
-}
-
-.button-holder {
-  margin: 32px auto 0;
-  min-height: 57px;
-  padding: 0 46px;
-  position: relative;
-  right: 17.5px;
-  width: 225px;
-  background: url(images/button.png) no-repeat;
-  color: #3d3d3c;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 57px;
-  text-align: center;
-}
-
 .footer {
-  margin: 38px auto 0;
-  min-height: 303px;
-  padding: 34px 14px;
+  margin: 30px auto 0;
+  min-height: 310px;
+  padding: 28px 0;
   position: relative;
   background: #606066;
 }
 
 .text {
-  margin: 0 0 0 321px;
-  text-align: left;
+  text-align: center;
+	color: #fefefe;
 }
 
 .row-3 {
-  margin: 46px 0 0 3px;
+  margin: 0 auto;
   position: relative;
-  width: 1138px;
+  width: 1142px;
 }
 
-.text_block_3-2 {
-  float: left;
+.text_block_4 {
+	float: left;
+  margin: 54px 0 0;
   width: 262px;
   font-size: 12px;
   line-height: 1.2;
   text-align: justify;
+	color: #fefefe;
 }
 
 .contacts {
+	margin: 54px 0 0;
   float: right;
-  margin: 0 88px 0 0;
   width: 240px;
   font-size: 12px;
   line-height: 14px;
+	color: #fefefe;
 }
 
 .row {
-  margin: 51px 0 0;
-  position: relative;
+   position: relative;
+	color: #fefefe;
+	margin: 38px auto 0;
+  width: 1140px;
 }
 
 .text-2 {
   float: left;
-  margin: 19px 0 0;
+  margin: 18px 0 0;
   font-size: 12px;
   text-align: center;
 }

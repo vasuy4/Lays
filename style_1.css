@@ -255,9 +255,9 @@ body {
 body {
   float: none;
   height: auto;
-  margin: 44px auto 0;
+  margin: 42px auto 0;
   position: relative;
-  width: 1170px;
+  width: 100%;
 }
 
 .header {
@@ -283,7 +283,7 @@ body {
   float: right;
   width: 210px;
   color: #fefefe;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: normal;
   line-height: 1.2;
   text-align: right;
@@ -362,13 +362,13 @@ body {
 }
 
 .tiitle_level1 {
-  margin: 0 352px;
-  text-align: right;
+  margin: 0px 260px;
 }
 
-.tiitle_level1>* {
-  font-size: 24px;
-  text-align: right;
+.tiitle_level1 {
+  font-size: 22px;
+  text-align: center;
+	line-height: 1.2;
 }
 
 .text_block_1 {
@@ -377,11 +377,12 @@ body {
   text-align: justify;
 }
 
-.text_block_1>* {
-  font-size: 13.97786px;
+.text_block_1 {
+  font-size: 17px;
   line-height: 1.2;
   text-align: justify;
   text-indent: 32.1643px;
+	width: 1140px;
 }
 
 ._1 {
@@ -405,6 +406,7 @@ body {
   font-size: 18.66667px;
   font-style: italic;
   text-align: center;
+	line-height: 1.2;
 }
 
 .text_block_2 {
@@ -412,6 +414,9 @@ body {
   line-height: 1.2;
   text-align: justify;
   text-indent: 32.21525px;
+	font-size: 15px;
+	width: 455px;
+	margin-left: -15px;
 }
 
 .button-holder {
@@ -444,10 +449,11 @@ body {
   width: 418px;
 }
 
-.tiitle_level2-2 {
+.tiitle_level3 {
   font-size: 18.66667px;
   font-style: italic;
   text-align: center;
+	line-height: 1.2;
 }
 
 .text_block_3 {
@@ -455,6 +461,9 @@ body {
   line-height: 1.2;
   text-align: justify;
   text-indent: 31.89777px;
+	font-size: 15px;
+	width: 455px;
+	margin-left: -15px;
 }
 
 .button-holder-2 {
@@ -495,10 +504,11 @@ body {
   width: 418px;
 }
 
-.tiitle_level2-3 {
+.tiitle_level4 {
   font-size: 18.66667px;
   font-style: italic;
   text-align: center;
+	line-height: 1.2;
 }
 
 .text_block_4 {
@@ -506,6 +516,9 @@ body {
   line-height: 1.2;
   text-align: justify;
   text-indent: 31.89777px;
+	font-size: 15px;
+	width: 455px;
+	margin-left: -15px;
 }
 
 .button-holder-3 {
@@ -527,48 +540,52 @@ body {
 }
 
 .footer {
-  margin: 32px auto 0;
+  margin: 30px auto 0;
   min-height: 310px;
-  padding: 34px 14px;
+  padding: 28px 0;
   position: relative;
   background: #606066;
 }
 
 .text {
-  margin: 0 0 0 321px;
-  text-align: left;
+  text-align: center;
+	color: #fefefe;
 }
 
 .row-2 {
-  margin: 46px 0 0 3px;
+  margin: 0 auto;
   position: relative;
-  width: 1138px;
+  width: 1142px;
 }
 
-.text_block_3-2 {
-  float: left;
+.text_block_5 {
+	float: left;
+  margin: 54px 0 0;
   width: 262px;
   font-size: 12px;
   line-height: 1.2;
   text-align: justify;
+	color: #fefefe;
 }
-
 .contacts {
+	margin: 54px 0 0;
   float: right;
-  margin: 0 88px 0 0;
   width: 240px;
   font-size: 12px;
   line-height: 14px;
+	color: #fefefe;
 }
 
 .row {
-  margin: 51px 0 0;
   position: relative;
+	color: #fefefe;
+	margin: 38px auto 0;
+  width: 1140px;
 }
 
 .text-2 {
   float: left;
-  margin: 19px 0 0;
+  margin: 18px 0 0;
   font-size: 12px;
   text-align: center;
 }
